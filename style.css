@@ -1,0 +1,301 @@
+
+body{
+    background-color: rgb(88, 197, 240);
+}
+#navbar{
+display: flex;
+justify-content: space-evenly;
+background-color: rgb(40, 71, 78);
+color: white;
+margin-left: 25px;
+margin-right: 25px;
+}
+#topnav{
+    display: flex;
+    gap: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+button{
+background-color: rgb(18, 18, 190);
+color: white;
+margin-top: 16px;
+}
+#major{
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: rgb(40, 60, 65);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#cloud{
+    font-size: large;
+}
+#paragraph{
+    font-size: xx-large;
+}
+#powerful{
+    color: rgb(255, 255, 0);
+}
+#btn{
+    background-color: rgb(29, 169, 194);
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+}
+#login{
+    background-color: rgb(40, 60, 65);
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+}
+#Stealth{
+    background-color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    /* margin-top: -20px; */
+    padding-top: 10px;
+    /* padding-left: 20px; */
+}
+#advantage{
+    margin-top: 70px;
+    text-align: center;
+}
+#brown{
+    color: rgb(202, 79, 34);
+}
+.text{
+    color: rgb(127, 127, 158);
+    font-size: small;
+}
+#figures{
+    display: flex;
+    justify-content: space-evenly;
+}
+.privacy{
+    margin-left: 25px;
+}
+.Expert{
+    display: flex;
+    justify-content: space-evenly;
+}
+#analytics{
+    margin-top: 50px;
+}
+#list{
+    list-style-type: circle;
+    font-size: small;
+    color: rgb(18, 18, 26);
+    font:bolder;
+}
+#start{
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: -5px;
+    width: 100px;
+}
+#smartphone{
+    text-align: center;
+    background-color: rgb(129, 221, 221);
+    padding-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#explore{
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+#caption{
+    color: rgb(50, 63, 136);
+}
+.caption{
+   color: rgb(197, 78, 34);
+}
+#caption2{
+   color: blue;
+}
+.btn{
+    background-color: white;
+    color: rgb(35, 184, 243);
+    padding: 10px;
+    border-radius: 15px;
+    width: 100px;
+}
+.images{
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    margin-top: -30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 70px;
+}
+#Blog{
+   display: flex;
+   justify-content: space-evenly;
+}
+.figures{
+    display: flex;
+    justify-content: space-evenly;
+}
+#pictures{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(70, 126, 126);
+    border-radius: 20px;
+    color: white;
+    margin-top: 50px;
+    padding: 50px;
+    justify-content: center;
+    width: 70%;
+    margin-left: 150px;
+}
+.end{
+    display: flex;
+    justify-content: space-evenly;
+}
+#End{
+    padding-top: 50px;
+    margin-top: -48px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(9, 83, 83);
+    color: white;
+}
+#copy{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    border-radius: 10px;
+    background-color: rgb(230, 213, 213);
+}
+@media  all and (min-width: 280px) and (max-width: 1024px) {
+    #navbar{
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+    #topnav{
+        flex-wrap: wrap;
+        font-size: xx-small;
+        }
+    button{
+        margin-top: 16px;
+        font-size: xx-small;
+            }
+    #major{
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
+            }
+    #cloud{
+                font-size: xx-small;
+            }
+    #paragraph{
+                font-size: x-small;
+            } 
+            #advert{
+                width: 200px;
+                height: 175px;
+            }
+            #btn{
+                padding: 10px;
+                width: 50px;
+                border-radius: 10px;
+                font-size: x-small;
+            }
+            #login{
+                padding: 10px;
+                width: 50px;
+                border-radius: 10px;
+                font-size: x-small;
+            }
+            #Stealth{
+                margin-left: 10px;
+                margin-right: 10px;
+                padding-top: 10px;
+            }
+            #advantage{
+                margin-top: 35px;
+            }
+            .text{
+                font-size: xx-small;
+            }
+            #figures{
+                flex-wrap: wrap;
+            }
+            .privacy{
+                margin-left: 25px;
+                width: 15px;
+            }
+            .Expert{
+            flex-wrap: wrap;
+            }
+            #analytics{
+                margin-top: 25px;
+            }
+            #list{
+            font-size: x-small;
+            }
+            #start{
+                padding: 5px;
+                border-radius: 10px;
+                width: 80px;
+                font-size: small;
+            }
+            #smartphone{
+                padding-top: 50px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            
+            .images{
+                padding: 50px;
+                margin-left: 10px;
+                margin-right: 10px;
+                font-size: small;
+            } 
+            #Blog{
+                flex-wrap: wrap;
+            }
+            .figures{
+                flex-wrap: wrap;
+                font-size: x-small;
+            } 
+            .btn{
+                border-radius: 10px;
+                width: 50px;
+            }
+            .laptop{
+                width: 80px;
+            }
+            #pictures{
+                display: flex;
+                flex-wrap: wrap;
+                font-size: x-small;
+                margin-top: 50px;
+                padding: 50px;
+                justify-content: center;
+                width: 70%;
+                margin-left: 1%;
+            }
+            .end{
+                flex-wrap: wrap;
+                font-size: small;
+            }
+            #End{
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            #copy{
+                flex-wrap: wrap;
+                font-size: small;
+            }
+ } 
